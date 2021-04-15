@@ -58,16 +58,20 @@ header{
     border-style: groove;
     float:right;
 }
-.display h2{
+.catalogo h2{
     text-align: center;
 }
-.display h3{
+.catalogo h3{
     text-align: left;
     padding-left: 10px;
 }
-.display p{
+.catalogo p{
     text-align: left;
     padding-left: 10px;
+}
+.catalogo textarea{
+    padding-top: 20px;
+    text-align: left;
 }
 .tabela li a{
     padding: 12px;
