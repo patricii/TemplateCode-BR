@@ -17,14 +17,14 @@ body {
     margin-left:auto;
     margin-bottom:0;
     margin-right:auto;
-    background-color: rgb(243, 236, 236);
+    background-color: rgb(236, 241, 243);
   }
 header{
     width: 1000px;
     height: 200px;
-    border-radius: 100%;
+    border-bottom-left-radius: 100%;
     border-style: groove;
-    background-color: lightblue;
+    background-color: rgb(215, 235, 241);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -144,6 +144,6 @@ footer img{
     text-align: right;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(220, 240, 247);
+    background-color: rgb(243, 236, 236);
     font-size: 10px;
 }
