@@ -20,7 +20,7 @@
                     <h2>Linguagens</h2>
                     <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Digite a linguagem aqui.." title="Digite a linguagem desejada no menu">
                     <ul id="menu" >
-                        <li  onclick="lerArquivo('#ShowCode', 'templates/HTML.txt')"><a href="#">HTML</a></li>
+                        <li onclick="showCode()"><a href="#">HTML</a></li>
                         <li><a href="#">C#</a></li>
                         <li><a href="#">C++</a></li>
                         <li><a href="#">JAVA</a></li>
@@ -41,8 +41,8 @@
             <div id="conteudo-right">
                 <section class="catalogo">
                     <h2>TEMPLATE CODE</h2>                  
-                           <div class="card-item">
-                            <iframe src="templates/HTML.txt" frameborder="0" scrolling="no" height="400" width="850"> </iframe>
+                           <div class="card-item" id="cardcode">
+                            <iframe src="templates/HTML.txt" frameborder="0" scrolling="no" height="400" width="850"></iframe>
                         </div>
                 </section>
             </div>            
