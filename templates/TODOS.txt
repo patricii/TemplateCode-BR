@@ -1,4 +1,4 @@
-     !HTML!
+      "HTML"
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +16,7 @@
 </body>
 </html>
 ----------------------------------------------------------------------------
-      !C#"
+      "C#"
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,15 +39,26 @@ namespace ConsoleApp1
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World!";
+    std::cout << "OLÁ, MUNDO!";
     return 0;
 }
 ----------------------------------------------------------------------------
+     "JAVA"
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("OLÁ, MUNDO!"); 
+    }
+}
+----------------------------------------------------------------------------
+     "RUBY"
 
+$ nano hello.rb
+puts "OLÁ, MUNDO!"
 
+$ ruby hello.rb
+"OLÁ, MUNDO!"
 
-
-
+----------------------------------------------------------------------------
 
 
 

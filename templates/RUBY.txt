@@ -1,0 +1,5 @@
+$ nano hello.rb
+puts "OLÁ, MUNDO!"
+
+$ ruby hello.rb
+"OLÁ, MUNDO!"
