@@ -24,7 +24,7 @@ header{
     height: 200px;
     border-bottom-left-radius: 100%;
     border-style: groove;
-    background-color: rgb(215, 235, 241);
+    background-color: rgb(57, 56, 138);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +32,7 @@ header{
     padding-bottom: 10px;
 }
 .olamundo h2 {
-    color: grey;
+    color:whitesmoke;
     font-size: 60px;
     position: relative;
     align-content: center;
@@ -56,7 +56,7 @@ header{
 #conteudo-right{
 
     width: 700px;
-    height: 870px;
+    height: 954px;
     background-color: whitesmoke;
     border-style: groove;
     float:right;
