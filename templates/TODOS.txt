@@ -153,3 +153,35 @@ codegen hello_world
 </html>
 
 ----------------------------------------------------------------------------
+	"PERL"
+
+use warnings;
+print("OLÁ, MUNDO!\n");
+
+----------------------------------------------------------------------------
+
+	"EIFFEL"
+
+on_paint (paint_dc: WEL_PAINT_DC; invalid_rect: WEL_RECT)
+            --Draw a centered text 
+        do
+            paint_dc.draw_centered_text("OLÁ, MUNDO!", client_rect)   
+        end 
+
+----------------------------------------------------------------------------
+	"HASKELL"
+
+import Data.Char
+
+main = do putStrLn "OLÁ, MUNDO."
+
+----------------------------------------------------------------------------
+	"ADA"
+
+with Text_IO; use Text_IO;
+procedure hello is
+begin
+   Put_Line("OLÁ, MUNDO!");
+end hello;
+
+----------------------------------------------------------------------------
