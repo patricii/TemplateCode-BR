@@ -28,7 +28,7 @@ header{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
 }
 .olamundo h2 {
@@ -144,5 +144,6 @@ footer img{
     text-align: right;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightblue;
+    background-color: rgb(220, 240, 247);
+    font-size: 10px;
 }
