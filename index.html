@@ -12,78 +12,83 @@
         <div class="olamundo">
             <h2> &quot; OLÁ MUNDO! &quot;</h2>
         </div>
-
     </header>
         <script src="script.js"></script>
         <div id="site">
-        <div id="conteudo-left">
-            <nav class="tabela">
-                <h2>Linguagens</h2>
-                <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Digite a linguagem aqui.." title="Digite a linguagem desejada no menu">
-                <ul id="menu" >
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">C#</a></li>
-                    <li><a href="#">C++</a></li>
-                    <li><a href="#">JAVA</a></li>
-                    <li><a href="#">RUBY</a></li>
-                    <li><a href="#">PYTHON</a></li>
-                    <li><a href="#">KOTLYN</a></li>
-                    <li><a href="#">PORTUGOL</a></li>
-                    <li><a href="#">Visual Basic .NET</a></li>
-                    <li><a href="#">PHP</a></li>
-                    <li><a href="#">EUPHORIA</a></li>
-                    <li><a href="#">PASCAL</a></li>
-                    <li><a href="#">LUA</a></li>
-                    <li><a href="#">MATLAB</a></li>
-                    <li><a href="#">JAVASCRIPT</a></li>
-                </ul>
-            </nav>   
+            <div id="conteudo-left">
+                <nav class="tabela">
+                    <h2>Linguagens</h2>
+                    <input type="text" id="pesquisa" onkeyup="pesquisar()" placeholder="Digite a linguagem aqui.." title="Digite a linguagem desejada no menu">
+                    <ul id="menu" >
+                        <li  onclick="lerArquivo('#ShowCode', 'templates/HTML.txt')"><a href="#">HTML</a></li>
+                        <li><a href="#">C#</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">JAVA</a></li>
+                        <li><a href="#">RUBY</a></li>
+                        <li><a href="#">PYTHON</a></li>
+                        <li><a href="#">KOTLYN</a></li>
+                        <li><a href="#">PORTUGOL</a></li>
+                        <li><a href="#">Visual Basic .NET</a></li>
+                        <li><a href="#">PHP</a></li>
+                        <li><a href="#">EUPHORIA</a></li>
+                        <li><a href="#">PASCAL</a></li>
+                        <li><a href="#">LUA</a></li>
+                        <li><a href="#">MATLAB</a></li>
+                        <li><a href="#">JAVASCRIPT</a></li>
+                    </ul>
+                </nav>   
+            </div>
+            <div id="conteudo-right">
+                <section class="catalogo">
+                    <h2>TEMPLATE CODE</h2>                  
+                           <div class="card-item">
+                            <iframe src="templates/HTML.txt" frameborder="0" scrolling="no" height="400" width="850"> </iframe>
+                        </div>
+                </section>
+            </div>            
+        </div> 
+    <footer>
+        <div class="content">
+            <h3>HISTÓRIA DAS LINGUAGENS DE PROGRAMAÇÃO</h3>
+            <h4>Antes de 1940</h4>
+            <p>As linguagens de programação são anteriores ao advento do primeiro computador moderno. De início, as linguagens eram, apenas, códigos.
+            Durante um período de nove meses entre 1842-1843, Ada Lovelace traduziu as memórias do matemático italiano Luigi Menabrea sobre a mais nova máquina proposta por Charles Babbage, a sua máquina analítica.[1] Com o artigo, ela anexou uma série de anotações que especificavam em completo detalhe um método para calcular números de Bernoulli com a máquina, reconhecido por alguns historiadores como o primeiro programa de computador do mundo. Mas alguns biógrafos debatem a medida de suas contribuições originais versus as de seu mérito.<br>
+            </p>
+            <p>
+            O tear de Jacquard, inventado em 1801, usava furos em cartões perfurados para representar os movimentos do braço do tear ao realizar costuras, a fim de gerar padrões decorativos automaticamente.
+            Herman Hollerith percebeu que poderia codificar a informação, em cartões perfurados, quando ele observou que o condutor de trens controlava a presença dos titulares dos bilhetes de trem com a posição dos furos no bilhete. Hollerith, então, começou a codificar os dados do censo de 1890 em cartões perfurados.<br>
+            </p>
+            <p>
+            Os primeiros códigos para computador eram especializados segundo as aplicações. Nas primeiras décadas do século XX, os cálculos numéricos eram baseados em números decimais. Eventualmente, se percebeu que a lógica podia ser representada com números, tão bem como com as palavras. Por exemplo, Alonzo Church foi capaz de expressar o cálculo lambda de uma maneira formalizada. A máquina de Turing era uma abstração do funcionamento da máquina de uma fita de marcação, por exemplo, em uso em empresas de telefonia. No entanto, ao contrário do cálculo lambda, os código elaborados por Turing não serviam como uma base para linguagens de alto nível - a sua utilização principal era na análise rigorosa da complexidade algorítmica.<br>
+            </p>  
+            <p>
+            Como muitos "primeiros" na história, a primeira linguagem de programação moderna é difícil de ser identificada. No início, as restrições do hardware definiam a linguagem. Cartões perfurados dispunham de até 80 colunas, mas algumas das colunas tinham que ser usadas para um número de seqüência de cada cartão. Fortran incluía algumas palavras-chave que eram as mesmas palavras em Inglês, como "IF" (se), "GOTO" (vá para) e "CONTINUE" (continue). O uso de um tambor magnético para a memória significava que os programas de computador também tinham que ser intercalados com as rotações do tambor. Assim, os programas eram mais dependentes do hardware do que hoje.
+            Para algumas pessoas, a resposta depende de quanta energia e legibilidade humana são necessárias antes que o status de "linguagem de programação" seja concedido. Os teares de Jacquard e a máquina diferencial de Charles Babbage, ambos tinham linguagens simples e extremamente limitadas para descrever as ações que estas máquinas deviam executar. Alguns podem até alegar que as perfurações de cartões para pianos possam ser vistas como uma linguagem de propósito específico, embora não destinadas ao consumo humano.<br>
+            </p>   
+            <h4>Os anos 1940</h4>  
+            <p>
+            Na década de 1940 os primeiros computadores elétricos, reconhecidamente modernos, foram criados. A velocidade limitada e a pequena capacidade da memória forçavam os programadores a escrever a mão economicamente programas em linguagem de montagem (linguagem de máquina). Logo se descobriu que a programação em linguagem assembly exigia um grande esforço intelectual e era muito sujeita a erros.
+            Em 1948, Konrad Zuse (o bóde)[2] publicou um artigo sobre a sua linguagem de programação Plankalkül. No entanto, esta não foi implementada em sua época e suas contribuições originais foram isoladas de outros desenvolvimentos.<br>
+            Algumas linguagens importantes que foram desenvolvidas durante este período incluem:
+            </p>    
+            <ul>
+                <li>1943 - Plankalkül (Konrad Zuse)</li>
+                <li>1943 - ENIAC coding system</li>
+                <li>1949 - C-10</li>
+            </ul>
+            <h4>Décadas de 1950 e 1960</h4>
+            <p>
+                Na década de 1950 as primeiras três linguagens de programação modernas, cujos descendentes ainda estão em uso difundido hoje foram concebidas:
+            </p>
+            <ul>
+                <li>FORTRAN (1954), a "FORmula TRANslator", inventada por John Backus e outros.;</li>
+                <li>LISP, a "LISt Processor", inventada por John McCarthy e outros.;</li>
+                <li>COBOL, a COmmon Business Oriented Language, criada pelo Short Range Committee, com grande influência de Grace Hopper.</li>
+            </ul>
+               <p>                   
+                Outro marco na década de 1950 foi a publicação, por um comitê de cientistas americanos e europeus, de "uma nova linguagem para os algoritmos", a ALGOL 60 através da publicação do relatório "The ALGOL 60 Report (the "ALGOrithmic Language")". Este relatório consolidou muitas ideias que circulavam na época e apresentou duas inovações chave quanto ao projeto de linguagens:
+            </p>
         </div>
-        <div id="conteudo-right">
-            <section class="catalogo" id="disp">
-                <h2>TEMPLATE CODE</h2>
-                <div class="card-wrapper">
-                    <div class="card-item">
-                        <h3>HTML</h3> 
-                        <textarea rows = "40" cols = "96" name = "HTML">                 
-                            <!DOCTYPE html>
-                                <html lang="en">
-                                    <head>
-                                        <meta charset="UTF-8">
-                                        <title>Document</title>
-                                    </head>
-
-                                    <body>
-                                        <p>OLÁ MUNDO!</p>
-                                    </body>
-
-                                </html>
-                        </textarea>                  
-                    </div>
-                    <div class="card-item">
-                        <h3>C#</h3>  
-                        <textarea rows = "40" cols = "96" name = "C#">               
-                            <!DOCTYPE html>
-                                <html lang="en">
-
-                                    <head>
-                                        <meta charset="UTF-8">
-                                        <title>Document</title>
-                                    </head>
-
-                                    <body>
-                                        <p>OLÁ MUNDO!</p>
-                                    </body>
-
-                                </html>
-                        </textarea>                  
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <div id="footer">
-        <p> Developed by Adriano Patricio</p>
-    </div>
+    </footer>   
 </body>
 </html>

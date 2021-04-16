@@ -5,34 +5,31 @@
     outline: none;
     font-family: arial;
   }
-  html,
+html,
 body {
     width: 100%;
     overflow-x: hidden;
   }
 #site{
     width:1000px;
-    height:700px;
+    height:1000px;
     margin-top:0;
     margin-left:auto;
     margin-bottom:0;
     margin-right:auto;
-    background-color:rgb(243, 236, 236);
+    background-color:  rgb(194, 224, 224);
   }
 header{
-
     width: 1000px;
-    height: 250px;
-    background-color:  rgb(211, 221, 221);
+    height: 200px;
+    background-color:  rgb(194, 224, 224);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 .olamundo h2 {
-
     color: grey;
     font-size: 60px;
     position: relative;
@@ -53,7 +50,7 @@ header{
 #conteudo-right{
 
     width: 700px;
-    height: 700px;
+    height: 703px;
     background-color: whitesmoke;
     border-style: groove;
     float:right;
@@ -97,17 +94,28 @@ header{
     border: 1px solid #ddd;
 
 }
-#footer{
+footer{
     width: 1000px;
-    height: 50px;
+    height: 2000px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    text-align:right;
     background-color:  whitesmoke;
 }
-#footer p {
-    font-size: 10px;
+footer h3{
+text-align: center;
+}
+footer p{
+    text-align: left;
+    padding: 10px;
+
+}
+footer h4{
+    text-align: left;
+    padding: 10px;
+}
+footer ul li{
+    list-style: none;
+    text-align: left;
+    padding: 10px;
 }
