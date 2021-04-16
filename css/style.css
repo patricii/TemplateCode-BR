@@ -49,6 +49,10 @@ header{
     float:left;
 
 }
+
+#conteudo-left h2{
+    color: grey;
+}
 #conteudo-right{
 
     width: 700px;
@@ -56,6 +60,9 @@ header{
     background-color: whitesmoke;
     border-style: groove;
     float:right;
+}
+#conteudo-right h2{
+    color: grey;
 }
 .catalogo h2{
     text-align: center;
@@ -105,22 +112,26 @@ footer{
     background-color: rgb(243, 236, 236);
 }
 footer h3{
-text-align: center;
+    text-align: center;
+    color: grey;
 }
 footer p{
     text-align: left;
     padding: 10px;
+    color: grey;
 
 }
 footer h4{
     text-align: left;
     padding: 10px;
+    color: rgb(112, 108, 108);
 }
 footer ul li{
     list-style:none;
     text-align: left;
     padding-left: 20px;
     padding: 10px;
+    color: rgb(112, 108, 108);
 }
 footer img{
     width: 100%;
