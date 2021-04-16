@@ -22,6 +22,8 @@ body {
 header{
     width: 1000px;
     height: 200px;
+    border-radius: 100%;
+    border-style: groove;
     background-color: lightblue;
     margin-top: 0;
     margin-left: auto;
