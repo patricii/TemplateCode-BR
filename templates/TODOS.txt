@@ -1,4 +1,6 @@
-      "HTML"
+----------------------------------------------------------------------------
+      
+	"HTML"
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +18,7 @@
 </body>
 </html>
 ----------------------------------------------------------------------------
-      "C#"
+	"C#"
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +37,7 @@ namespace ConsoleApp1
     }
 }
 ----------------------------------------------------------------------------
-      "C++"
+	"C++"
 #include <iostream>
 
 int main() {
@@ -43,14 +45,14 @@ int main() {
     return 0;
 }
 ----------------------------------------------------------------------------
-     "JAVA"
+	"JAVA"
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("OLÁ, MUNDO!"); 
     }
 }
 ----------------------------------------------------------------------------
-     "RUBY"
+	"RUBY"
 
 $ nano hello.rb
 puts "OLÁ, MUNDO!"
@@ -59,34 +61,95 @@ $ ruby hello.rb
 "OLÁ, MUNDO!"
 
 ----------------------------------------------------------------------------
-   "PYTHON"
+	"PYTHON"
 
 print('OLÁ, MUNDO!')
 
 ----------------------------------------------------------------------------
-   "KOTLYN"
+	"KOTLYN"
 
 fun main(args : Array<String>) {
     println("OLÁ, MUNDO!")
 }
 
 ----------------------------------------------------------------------------
-   "PORTUGOL"
+	"PORTUGOL"
 programa {
 	funcao inicio() {
 		escreva("OLÁ, MUNDO!")
 	}
 }
 ----------------------------------------------------------------------------
+	"VB"
+Imports System
+
+Module Module1
+
+    Sub Main()
+        Console.WriteLine("OLÁ, MUNDO!")
+        Console.WriteLine("Press Enter Key to Exit.")
+        Console.ReadLine()
+
+    End Sub 
+
+End Module
+
+----------------------------------------------------------------------------
+	"PHP"
+<html>
+ <head>
+  <title>Teste PHP</title>
+ </head>
+ <body>
+ <?php echo "<p>OLÁ, MUNDO</p>"; ?>
+ </body>
+</html>
+
+----------------------------------------------------------------------------
+	"EUPHORIA"
+
+puts(1, "OLÁ, MUNDO!\n")
 
 
+----------------------------------------------------------------------------
+	"PASCAL"
 
+$ vim HelloWorld.p
 
+Program HelloWorld(output);
+begin
+  writeln('OLÁ, MUNDO!');
+end.
 
+----------------------------------------------------------------------------
+	"LUA"
 
+print("OLÁ, MUNDO!")
 
+----------------------------------------------------------------------------
+	"MATLAB"
 
+function y = hello_world 
+%#codegen
+y = 'OLÁ, MUNDO!';
+codegen hello_world
 
+----------------------------------------------------------------------------
+	"JAVASCRIPT"
+<!DOCTYPE HTML>
+<html>
+<body>
 
+  <p>Before the script...</p>
 
+  <script>
+    alert( 'OLÁ, MUNDO!' );
+  </script>
 
+  <p>...After the script.</p>
+
+</body>
+
+</html>
+
+----------------------------------------------------------------------------

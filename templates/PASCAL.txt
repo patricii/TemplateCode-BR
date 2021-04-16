@@ -1,0 +1,6 @@
+$ vim HelloWorld.p
+
+Program HelloWorld(output);
+begin
+  writeln('OLÁ, MUNDO!');
+end.
