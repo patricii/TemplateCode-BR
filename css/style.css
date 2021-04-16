@@ -119,3 +119,12 @@ footer ul li{
     text-align: left;
     padding: 10px;
 }
+.last{
+
+    width: 1000px;
+    height: 20px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(224, 215, 215);
+}
