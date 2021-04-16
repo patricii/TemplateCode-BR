@@ -17,12 +17,12 @@ body {
     margin-left:auto;
     margin-bottom:0;
     margin-right:auto;
-    background-color:  rgb(194, 224, 224);
+    background-color: rgb(243, 236, 236);
   }
 header{
     width: 1000px;
     height: 200px;
-    background-color:  rgb(194, 224, 224);
+    background-color: lightblue;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -96,11 +96,11 @@ header{
 }
 footer{
     width: 1000px;
-    height: 2000px;
+    height: 3000px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color:  whitesmoke;
+    background-color: lightblue;
 }
 footer h3{
 text-align: center;
@@ -115,8 +115,9 @@ footer h4{
     padding: 10px;
 }
 footer ul li{
-    list-style: none;
+    list-style:none;
     text-align: left;
+    padding-left: 20px;
     padding: 10px;
 }
 .last{
