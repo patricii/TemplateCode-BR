@@ -22,9 +22,8 @@ body {
 header{
     width: 1000px;
     height: 200px;
-    border-bottom-left-radius: 100%;
-    border-style: groove;
-    background-color: rgb(57, 56, 138);
+    border-radius: 10px;
+    background-color: rgb(24, 59, 110);
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -43,7 +42,7 @@ header{
 
 }
 #conteudo-left{
-
+    border-radius: 8px;
     width: 300px;
     background-color: whitesmoke;
     float:left;
@@ -55,6 +54,7 @@ header{
 }
 #conteudo-right{
 
+    border-radius: 10px;
     width: 700px;
     height: 954px;
     background-color: whitesmoke;
@@ -101,6 +101,7 @@ header{
     padding: 11px;
     font-size: 18px;
     border: 1px solid #ddd;
+    
 
 }
 footer{
@@ -136,6 +137,7 @@ footer ul li{
 footer img{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .last{
 
