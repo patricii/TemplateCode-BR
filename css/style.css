@@ -162,13 +162,9 @@ footer img{
       top:5%;
     }
   
-    .olamundo h2  {
-      bottom: 10%;
-      left: 15;
-    }
-     .olamundo img {
-    width: 55%;
-    height: 55%;
+    .olamundo img {
+    width: 100%;
+    height: 100%;
 
     }
     footer {
