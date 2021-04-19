@@ -179,10 +179,6 @@ footer img{
         width: 55%;
         height: 55%;
     }
-    body {
-        width: 55%;
-        overflow-x: hidden;
-      }
     .last {
       height: 100%;
       display: flex;
