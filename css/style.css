@@ -166,11 +166,13 @@ footer img{
       bottom: 10%;
       left: 15;
     }
-  .olamundo img {
-      width: 600px;
+     .olamundo img {
+    width: 55%;
+    height: 55%;
 
-  }
+    }
     footer {
+      text-align: left;
       width: 600px;
       padding: 0px 10px;
     }
@@ -186,9 +188,9 @@ footer img{
         height: 55%;
     }
     .last {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
+      height: 55%;
+      text-align: left;
+
     }
   
   }
