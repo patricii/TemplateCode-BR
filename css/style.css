@@ -156,12 +156,10 @@ footer img{
     header {
       width: 70%;
       height: 50%;
-      position: absolute;
       top:5%;
     }
   
     .olamundo h2  {
-      position: absolute;
       bottom: 10%;
       left: 15;
     }
@@ -178,9 +176,13 @@ footer img{
       width: 90%;
     }
     footer img{
-        width: 50%;
-        height: 50%;
+        width: 55%;
+        height: 55%;
     }
+    body {
+        width: 55%;
+        overflow-x: hidden;
+      }
     .last {
       height: 100%;
       display: flex;
