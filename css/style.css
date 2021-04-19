@@ -166,7 +166,10 @@ footer img{
       bottom: 10%;
       left: 15;
     }
-  
+  .olamundo img {
+      width: 100%;
+
+  }
     footer {
       width: 600px;
       padding: 0px 10px;
