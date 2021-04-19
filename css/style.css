@@ -26,8 +26,7 @@ header{
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
+
 }
 .olamundo h2 {
     color:whitesmoke;
@@ -39,6 +38,11 @@ header{
     padding-left: 0px;
     padding-right: 0px;
 
+}
+.olamundo img{
+    padding-top: 0px;
+    width: 100%;
+    height: 250px;
 }
 #conteudo-left{
     border-radius: 8px;
