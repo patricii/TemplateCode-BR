@@ -149,3 +149,43 @@ footer img{
     background-color: rgb(243, 236, 236);
     font-size: 10px;
 }
+/* Responsive adjustments */
+
+@media (max-width: 576px) {
+  
+    header {
+      width: 70%;
+      height: 50%;
+      position: absolute;
+      top:5%;
+    }
+  
+    .olamundo h2  {
+      position: absolute;
+      bottom: 10%;
+      left: 15;
+    }
+  
+    footer {
+      width: 600px;
+      padding: 0px 10px;
+    }
+  
+    .left {
+      display: none;
+    }
+    .right {
+      width: 90%;
+    }
+    footer img{
+        width: 50%;
+        height: 50%;
+    }
+    .last {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+  
