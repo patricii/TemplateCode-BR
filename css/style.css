@@ -166,6 +166,9 @@ footer img{
     height: 100%;
 
     }
+    #conteudo-left{
+        width:100%
+    }
     footer {
       text-align: left;
       width: 100%;
